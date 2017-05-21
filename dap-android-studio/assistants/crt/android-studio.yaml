@@ -47,9 +47,9 @@ run:
 - $user~: $(echo $USER)
 - $dirname~: $(dirname "$name")
 - $basename~: $(basename "$name")
-- $version_ide: "android-studio-ide-141.2117773-linux.zip"
+- $version_ide: "android-studio-ide-162.3934792-linux.zip"
 - $version_sdk: "android-sdk_r24.3.3-linux.tgz"
-- $url_ide: "https://dl.google.com/dl/android/studio/ide-zips/1.3.0.10/"
+- $url_ide: "https://dl.google.com/dl/android/studio/ide-zips/2.3.2.0/"
 - $url_sdk: "http://dl.google.com/android/"
 - cl: cd ~/
 - if not $(ls "$version"):
